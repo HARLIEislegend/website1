@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com -->
+<!-- Last Published: Tue Jul 20 2021 20:52:12 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="next-gen.webflow.io" data-wf-page="6026c0434de16b5dda683edc" data-wf-site="5f34eb6e935a5c1fa933ebe2" data-wf-status="1">
+
+<head>
+    <meta charset="utf-8" />
+    <title>MOBA | Nextgen - Webflow HTML website template</title>
+    <meta content="JUST THE MOST ADVANCED GAMING TEMPLATE. EVER. Nextgen Webflow template is an ultimate multi-purpose video game, entertainment, and eSports Webflow Template &amp; UI Kit which is responsive, feature-rich, and easily customizable."
+        name="description" />
+    <meta content="MOBA | Nextgen - Webflow HTML website template" property="og:title" />
+    <meta content="JUST THE MOST ADVANCED GAMING TEMPLATE. EVER. Nextgen Webflow template is an ultimate multi-purpose video game, entertainment, and eSports Webflow Template &amp; UI Kit which is responsive, feature-rich, and easily customizable." property="og:description"
+    />
+    <meta content="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d9ce461b025ec86ca5f8a7_og-img%20(1).jpg" property="og:image" />
+    <meta content="MOBA | Nextgen - Webflow HTML website template" property="twitter:title" />
+    <meta content="JUST THE MOST ADVANCED GAMING TEMPLATE. EVER. Nextgen Webflow template is an ultimate multi-purpose video game, entertainment, and eSports Webflow Template &amp; UI Kit which is responsive, feature-rich, and easily customizable." property="twitter:description"
+    />
+    <meta content="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d9ce461b025ec86ca5f8a7_og-img%20(1).jpg" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/css/next-gen.webflow.e73473e04.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Chakra Petch:300,regular,500,600,700"]
+            }
+        });
+    </script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6088070860c7a9c67abb1fe1_ng-fav%20(1).png" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/608806d7990dc2369c574be1_ng-clip%20(1).png" rel="apple-touch-icon" />
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header-moba wf-section">
+            <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+                <div class="navbar-container">
+                    <div class="navbar-container-left"><a href="/" class="navbar-brand company w-nav-brand"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5f9ae92236f0d952faf1cf43_nextgen-simple.svg" loading="lazy" width="34" alt=""/></a><a href="/" class="navbar-brand game w-nav-brand"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5f3a999de7bab841a0c0a9b3_logo%20text.svg" loading="lazy" width="120" alt=""/></a>
+                        <nav
+                            role="navigation" class="nav-menu w-nav-menu">
+                            <div>
+                                <div data-hover="" data-delay="0" class="w-dropdown">
+                                    <div class="nav-link dropdown w-dropdown-toggle">
+                                        <div class="nav-link-dropdown-icon w-icon-dropdown-toggle"></div>
+                                        <div>Game</div>
+                                    </div>
+                                    <nav class="nav-dropdown-games-list w-dropdown-list">
+                                        <div class="container">
+                                            <div class="align-right mb-10"><a href="/store" class="link text-extra-small">Browse all games</a></div>
+                                            <div data-animation="slide" data-duration="500" data-infinite="1" class="slider games-nav-slider w-slider">
+                                                <div class="w-slider-mask">
+                                                    <div class="w-slide">
+                                                        <div class="row w-row">
+
+                                                            <div
+                                                                class="w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-6"><a href="https://www.dota2.com/store" class="games-item nav w-inline-block"><img src="data:image/png;base64,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" loading="lazy" alt=""/><div class="nav-games-name"><div class="text-extra-small">STORE</div><img src="https://uploads-ssl.webflowd.com/5f34eb6e935a5c1fa933ebe2/606f06a2880cdb812caf7a303_ps.svg" loading="lazy" width="16" alt="" class="mr-5"/><img src="https://up3loads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/606f0875290455e5598ffd6f_xbox.svg" loading="lazy" width="14" alt="" class="mr-5"/><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebesdfsf2/60d353068c89bbb0661f5b1d_windows.svg" loading="lazy" width="14" alt="" class="mr-5"/></div><div class="games-item-hover"></div></a></div>
+                                                        <div
+                                                            class="w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-6"><a href="https://www.dota2.com/patches/7.29d" class="games-item nav w-inline-block"><img src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/b44f45a34e1c310470a4a46aa759ac0d019add88.jpg" loading="lazy" alt=""/><div class="nav-games-name"><div class="text-extra-small">PATCHES</div><img src="https://uploads-ssl.fwebflow.com/5f34eb6e935a5c1fa933ebe2/60d353068c89bbb0661f5b1d_windows.svg" loading="lazy" width="14" alt="" class="mr-5"/></div><div class="games-item-hover"></div></a></div>
+                                                    <div
+                                                        class="w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-6"><a href="https://www.dota2.com/news/updates" class="games-item nav w-inline-block"><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.1920x1080.jpg?t=1624489008" loading="lazy" alt=""/><div class="nav-games-name"><div class="text-extra-small">GAMEPLAY UPDATES</div><img src="https://uploads-sslf.webflow.com/5f34eb6e935a5c1fa933ebe2/606f06a2880cdb812caf7a30_ps.svg" loading="lazy" width="16" alt="" class="mr-5"/></div><div class="games-item-hover"></div></a></div>
+                                                <div
+                                                    class="w-col w-col-2 w-col-medium-4 w-col-small-6 w-col-tiny-6"><a href="https://www.dota2.com/pastupdates" aria-current="page" class="games-item nav w-inline-block w--current"><img src="https://856107.smushcdn.com/1894479/wp-content/uploads/2020/12/Ep13-1024x576.png?lossy=0&strip=1&webp=1" loading="lazy" alt=""/><div class="nav-games-name"><div class="text-extra-small">PREVIOUS UPDATES</div><img src="https://uplofads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/606f0875290455e5598ffd6f_xbox.svg" loading="lazy" width="14" alt="" class="mr-5"/><img src="https://uploads-ssl.webflow.com/5df34eb6e935a5c1fa933ebe2/60d353068c89bbb0661f5b1d_windows.svg" loading="lazy" width="14" alt="" class="mr-5"/></div><div class="games-item-hover"></div></a></div>
+        </div>
+    </div>
+    </div>
+    <div class="nav-slider-arrow left w-slider-arrow-left">
+        <div class="nav-slider-arrow-iocn w-icon-slider-left"></div>
+    </div>
+    <div class="nav-slider-arrow right w-slider-arrow-right">
+        <div class="nav-slider-arrow-iocn w-icon-slider-right"></div>
+    </div>
+    <div class="hidden w-slider-nav w-round"></div>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <div data-hover="" data-delay="0" class="w-dropdown">
+        <div class="nav-link dropdown w-dropdown-toggle">
+            
+            <div class="" ><a href="https://www.dota2.com/heroes">HEROES</a></div>
+        </div>
+
+        </nav>
+    </div>.<a href="https://store.steampowered.com/app/570/Dota_2/" class="custom-button small white w-inline-block">
+        <div class="custom-button-hover primary"></div>
+        <div class="corner-black bottom-right small"></div>
+        <div class="corner-black top-left small"></div>
+        <div class="custom-button-text">NEWS</div>
+        
+
+    </a>
+    <div class="div">.               .</div>
+    <a href="https://steamcommunity.com/oauth/login?client_id=9B2C1229&response_type=token&state=news" class="custom-button small white w-inline-block">
+        <div class="custom-button-hover primary"></div>
+        <div class="corner-black bottom-right small"></div>
+        <div class="corner-black top-left small"></div>
+        <div class="custom-button-text">LOGIN</div>
+    </a>.
+        </nav>
+    </div>
+    </div>
+    <div class="navbar-container-right"><a href="/store" class="nav-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60955bdd15d0e1617c77edb8_icons8-shopping-cart-100.png" loading="lazy" width="25" alt=""/></a><a href="/account" class="nav-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5f9af2cc613d21444310f3a7_icons8-account-100.png" loading="lazy" width="25" alt=""/></a>
+        <div
+            class="nav-action fs-0">
+            <a href="https://store.steampowered.com/app/570/Dota_2/" class="custom-button small white w-inline-block">
+                <div class="custom-button-hover primary"></div>
+                <div class="corner-black bottom-right small"></div>
+                <div class="corner-black top-left small"></div>
+                <div class="custom-button-text">PLAY NOW</div>
+            </a>
+    </div>
+    </div>
+    </nav>
+    <div class="menu-button-container">
+        <div class="menu-button w-nav-button"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d5cfaf6fd9b785bd509105_icons8-squared-menu-100.png" loading="lazy" width="20" alt="" class="menu-button-icon" /></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider w-slider">
+        <div class="slider-mask w-slider-mask">
+            <div class="moba-header-slide _1 w-slide">
+                <div class="moba-header-slide-container">
+                    <div class="container">
+                        <div class="center-block">
+                            <h2 class="text-white mb-20">DOTA 2</h2>
+                            <p class="text-white-opacity mb-40">“A MODERN MULTIPLAYER MASTERPIECE.”</p>
+                            <p class="text-white-opacity mb-40"> - DESTRUCTOID</p>
+                            <a href="https://store.steampowered.com/app/570/Dota_2/" class="button primary w-button">PLAY FREE now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="moba-header-slide _2 w-slide">
+                <div class="moba-header-slide-container">
+                    <div class="container">
+                        <div class="center-block">
+                            <h2 class="text-white mb-20">DOTA 2</h2>
+                            <p class="text-white-opacity mb-40">“A MODERN MULTIPLAYER MASTERPIECE.”</p>
+                            <p class="text-white-opacity mb-40"> - DESTRUCTOID</p><a href="https://store.steampowered.com/app/570/Dota_2/" class="button primary w-button">PLAY FREE now</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="moba-header-slide _3 w-slide">
+                <div class="moba-header-slide-container">
+                    <div class="container">
+                        <div class="center-block">
+                            <h2 class="text-white mb-20">DOTA 2</h2>
+                            <p class="text-white-opacity mb-40">“A MODERN MULTIPLAYER MASTERPIECE.”</p>
+                            <p class="text-white-opacity mb-40"> - DESTRUCTOID</p><a href="https://store.steampowered.com/app/570/Dota_2/" class="button primary w-button">PLAY FREE now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-left hidden w-slider-arrow-left"></div>
+        <div class="arrow-right hidden w-slider-arrow-right"></div>
+        <div class="slide-nav moba w-slider-nav"></div>
+    </div>
+    </div>
+    <div class="section light mmo-header-section wf-section">
+        <div class="container">
+            <div class="moba-header-video mb-60">
+                <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo"><iframe src="https://www.youtube-nocookie.com/embed/vBXLojiNJ3g?rel=1&amp;controls=0&amp;autoplay=0&amp;mute=0&amp;start=0" frameBorder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media"
+                        allowfullscreen=""></iframe></div>
+            </div>
+            <div class="center-block mb-60">
+                <div class="text-highlight primary">Choose youR</div>
+                <h1><em>CHAMPION</em></h1>
+                <p class="text-black-opacity mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.<br/></p><a href="/about/heroes" class="button black mb-20 w-button">all champions</a></div>
+            <div
+                data-duration-in="300" data-duration-out="100" class="moba-classes w-tabs">
+                <div class="moba-classes-menu w-tab-menu"><a data-w-tab="Tab 1" class="moba-classes-menu-item w-inline-block w-tab-link w--current"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60313a2731f7c09744697801_icons8-battle-100%20(1).png" loading="lazy" width="30" alt="" class="moba-classes-image"/><div class="moba-classes-texts-item">Warrior</div></a>
+                    <a
+                        data-w-tab="Tab 2" class="moba-classes-menu-item w-inline-block w-tab-link"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60313a27f83d44eb78817a10_icons8-mage-staff-100.png" loading="lazy" width="30" alt="" class="moba-classes-image" />
+                        <div class="moba-classes-texts-item">Mage</div>
+                        </a><a data-w-tab="Tab 3" class="moba-classes-menu-item w-inline-block w-tab-link"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60313a272786197aeeb2077d_icons8-defense-100.png" loading="lazy" width="30" alt="" class="moba-classes-image"/><div class="moba-classes-texts-item">Tank</div></a>
+                        <a
+                            data-w-tab="Tab 4" class="moba-classes-menu-item w-inline-block w-tab-link"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60313a27857b1dc8e8b28a78_icons8-archer-100.png" loading="lazy" width="30" alt="" class="moba-classes-image" />
+                            <div class="moba-classes-texts-item">Archer</div>
+                            </a><a data-w-tab="Tab 5" class="moba-classes-menu-item w-inline-block w-tab-link"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60313a27f83d4422e4817a11_icons8-godtier-100.png" loading="lazy" width="30" alt="" class="moba-classes-image"/><div class="moba-classes-texts-item">Support</div></a></div>
+                <div
+                    class="w-tab-content">
+                    <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                        <div class="w-row">
+                            <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6088156cc5a7a34a204523b5_602ab62e12f9d540b778112b_moba-champ-1%20(1).png" loading="lazy" height="" alt="" /></div>
+                            <div class="moba-class-overview w-col w-col-6">
+                                <h3><strong><em>ABADDON</em></strong></h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <p class="text-small text-black-opacity mb-20"> Able to transform enemy attacks into self-healing, Abaddon can survive almost any assault. Shielding allies and launching his double-edged coil at a friend or foe, he is always ready to ride into the thick of battle.</p>
+                                <a href="https://www.dota2.com/hero/abaddon" class="custom-button small white w-inline-block">
+                                    <div class="custom-button-hover primary"></div>
+                                    <div class="corner-black bottom-right small"></div>
+                                    <div class="corner-black top-left small"></div>
+                                    <div class="custom-button-text">More Info</div>
+                                </a>
+                                
+                                <div class="overview">
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e9289bcc20c72bfc96d6_icons8-millennium-rod-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">ROLE</p>
+                                        <p class="text-extra-small text-primary"><strong>WARRIOR</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e947d88e0612f52af4be_icons8-no-connection-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DIFFICULTY</p>
+                                        <p class="text-extra-small text-primary"><strong>LOW</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e75d418aae39803b2801_icons8-thor-hammer-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DAMAGE</p>
+                                        <p class="text-extra-small text-primary"><strong>MAGICAL</strong></p>
+                                    </div>
+                                </div>
+                                <h5>ABILITIES</h5><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <div data-duration-in="300" data-duration-out="100"
+                                    class="abilities w-tabs">
+                                    <div class="mb-10 w-tab-menu">
+                                        <a data-w-tab="Tab 1" class="ability-item-tab w-inline-block w-tab-link w--current">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_death_coil.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 2" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_aphotic_shield.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 3" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/abaddon_frostmourne.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ability-description w-tab-content">
+                                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                            <div>
+                                                <div><strong>MIST COIL</strong></div>
+                                                <div class="text-small text-primary mb-10">ABILITY: Unit Target</div>
+                                                <div class="text-extra-small text-black-opacity">Abaddon releases a coil of deathly mist that can damage an enemy unit or heal a friendly unit at the cost of some of Abaddon's health.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 2" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>APHOTIC SHIELD</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ABILITY:
+                                                    Unit Target </div>
+                                                <div class="text-extra-small text-black-opacity">Summons dark energies around an ally unit, creating a shield that absorbs a set amount of damage before expiring. When the shield is destroyed it will burst and deal damage equal to the amount it could absorb to an area around it. Removes certain types of negative buffs and stuns on cast.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>CURSE OF AVERNUS</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ABILITY:
+                                                    Passive</div>
+                                                <div class="text-extra-small text-black-opacity">Abaddon strikes an enemy, slowing the target's movement speed. If the target gets hit 4 times, they become affected by a chilling curse causing them to be silenced and slowed, and all attacks against them gain an attack speed boost.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="w-tab-pane">
+                        <div class="w-row">
+                            <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6088157cede51732dc3ab02a_6033f393627447288de75c11_moba-champ-4%20(1).png" loading="lazy" height="" alt="" /></div>
+                            <div class="moba-class-overview w-col w-col-6">
+                                <h3><strong><em>DARK WILLOW</em></strong></h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <p class="text-small text-black-opacity mb-20">A slight flutter from the shadows may be all an enemy sees of Dark Willow, as she eludes pursuit and controls her foe's movements with cunning fae tricks. Calling upon powers far more ancient than any scholarly magic, she binds enemies in place before unleashing the full wrath and terror of the fae realm upon them.</p>
+                                <a href="https://www.dota2.com/hero/darkwillow" class="custom-button small white w-inline-block">
+                                    <div class="custom-button-hover primary"></div>
+                                    <div class="corner-black bottom-right small"></div>
+                                    <div class="corner-black top-left small"></div>
+                                    <div class="custom-button-text">More Info</div>
+                                </a>
+                                <div class="overview">
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e9289bcc20c72bfc96d6_icons8-millennium-rod-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">ROLE</p>
+                                        <p class="text-extra-small text-primary"><strong>MAGE</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e947d88e0612f52af4be_icons8-no-connection-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DIFFICULTY</p>
+                                        <p class="text-extra-small text-primary"><strong>HIGH</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e75d418aae39803b2801_icons8-thor-hammer-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DAMAGE</p>
+                                        <p class="text-extra-small text-primary"><strong>ELEMENTAL</strong></p>
+                                    </div>
+                                </div>
+                                <h5>ABILITIES</h5><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <div data-duration-in="300" data-duration-out="100"
+                                    class="abilities w-tabs">
+                                    <div class="mb-10 w-tab-menu">
+                                        <a data-w-tab="Tab 1" class="ability-item-tab w-inline-block w-tab-link w--current">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_bramble_maze.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 2" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_shadow_realm.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 3" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/abilities/dark_willow_terrorize.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ability-description w-tab-content">
+                                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                            <div>
+                                                <div><strong>BRAMBLE MAZE</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ABILITY:
+                                                    Point Target</div>
+                                                <div class="text-extra-small text-black-opacity">Dark Willow creates a maze of brambles that grow in the target area after 0.5 seconds.  Enemies that walk into a bramble are rooted and take damage over time. </div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 2" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>SHADOW REALM</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ABILITY:
+                                                    No Target</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>TERRORIZE</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ABILITY:
+                                                    Point Target</div>
+                                                <div class="text-extra-small text-black-opacity">Dark Willow recedes into the shadows, becoming untargetable.  Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3.5 seconds.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-tab="Tab 3" class="w-tab-pane">
+                        <div class="w-row">
+                            <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6088155a7eae5f6dc49bc663_6033f5371878363f0374f918_moba-champ-5%20(1).png" loading="lazy" height="" alt="" /></div>
+                            <div class="moba-class-overview w-col w-col-6">
+                                <h3><strong><em>BREWMASTER</em></strong></h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <p class="text-small text-black-opacity mb-20">A fearsome fighter in any situation, Brewmaster can turn the tide of battle by splitting into three elemental spirits, each with their own unique abilities. When not divided, he brings drunken chaos to his foes with slowing claps and powerful swings of his staff.
+                                </p>
+                                <a href="https://www.dota2.com/hero/brewmaster" class="custom-button small white w-inline-block">
+                                    <div class="custom-button-hover primary"></div>
+                                    <div class="corner-black bottom-right small"></div>
+                                    <div class="corner-black top-left small"></div>
+                                    <div class="custom-button-text">More Info</div>
+                                </a>
+                                <div class="overview">
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e9289bcc20c72bfc96d6_icons8-millennium-rod-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">ROLE</p>
+                                        <p class="text-extra-small text-primary"><strong>TANK</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e947d88e0612f52af4be_icons8-no-connection-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DIFFICULTY</p>
+                                        <p class="text-extra-small text-primary"><strong>MEDIUM</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e75d418aae39803b2801_icons8-thor-hammer-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DAMAGE</p>
+                                        <p class="text-extra-small text-primary"><strong>PHYSICAL</strong></p>
+                                    </div>
+                                </div>
+                                <h5>ABILITIES</h5><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <div data-duration-in="300" data-duration-out="100"
+                                    class="abilities w-tabs">
+                                    <div class="mb-10 w-tab-menu">
+                                        <a data-w-tab="Tab 1" class="ability-item-tab w-inline-block w-tab-link w--current">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f20803a445c01636e3_skill_icon_03_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 2" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f285364a0ad9b2215b_skill_icon_04_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 3" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f2b671a1ee9783d997_skill_icon_02_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ability-description w-tab-content">
+                                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                            <div>
+                                                <div><strong>Critical strike</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">PASSIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 2" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Death mark</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Holy shield</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-tab="Tab 4" class="w-tab-pane">
+                        <div class="w-row">
+                            <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/608815985a17a5c1d9d0fbe4_6033f5e16585c8eb2f8d486a_moba-champ-2%20(1).png" loading="lazy" height="" alt="" /></div>
+                            <div class="moba-class-overview w-col w-col-6">
+                                <h3><strong><em>SNIPER</em></strong></h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <p class="text-small text-black-opacity mb-20">Death from a distance is Sniper's specialty. He keeps his enemies on their toes with a steady barrage of firepower, and then, when the time is right, picks them off with a kill shot.
+                                </p>
+                                <a href="https://www.dota2.com/hero/sniper" class="custom-button small white w-inline-block">
+                                    <div class="custom-button-hover primary"></div>
+                                    <div class="corner-black bottom-right small"></div>
+                                    <div class="corner-black top-left small"></div>
+                                    <div class="custom-button-text">More Info</div>
+                                </a>
+                                <div class="overview">
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e9289bcc20c72bfc96d6_icons8-millennium-rod-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">ROLE</p>
+                                        <p class="text-extra-small text-primary"><strong>ARCHER</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e947d88e0612f52af4be_icons8-no-connection-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DIFFICULTY</p>
+                                        <p class="text-extra-small text-primary"><strong>LOW</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e75d418aae39803b2801_icons8-thor-hammer-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DAMAGE</p>
+                                        <p class="text-extra-small text-primary"><strong>PHYSICAL</strong></p>
+                                    </div>
+                                </div>
+                                <h5>ABILITIES</h5><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <div data-duration-in="300" data-duration-out="100"
+                                    class="abilities w-tabs">
+                                    <div class="mb-10 w-tab-menu">
+                                        <a data-w-tab="Tab 1" class="ability-item-tab w-inline-block w-tab-link w--current">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f2b671a1ee9783d997_skill_icon_02_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 2" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f285364a0ad9b2215b_skill_icon_04_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 3" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f20e715c97eea43661_skill_icon_01_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ability-description w-tab-content">
+                                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                            <div>
+                                                <div><strong>Critical strike</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">PASSIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 2" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Death mark</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Holy shield</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-tab="Tab 5" class="w-tab-pane">
+                        <div class="w-row">
+                            <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/608815a8f5d21f4a28931582_6033f67fd25716fc25d9170a_moba-champ-3%20(1).png" loading="lazy" height="" alt="" /></div>
+                            <div class="moba-class-overview w-col w-col-6">
+                                <h3><strong><em>MIRANA</em></strong></h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <p class="text-small text-black-opacity mb-20">As she takes aim from a distance with her deadly arrow, Mirana must always be ready to leap into battle. Able to shield her allies from the eyes of her enemies, she ensures that her team is always on the prowl.</p>
+                                <a href="https://www.dota2.com/hero/mirana" class="custom-button small white w-inline-block">
+                                    <div class="custom-button-hover primary"></div>
+                                    <div class="corner-black bottom-right small"></div>
+                                    <div class="corner-black top-left small"></div>
+                                    <div class="custom-button-text">More Info</div>
+                                </a>
+                                <div class="overview">
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e9289bcc20c72bfc96d6_icons8-millennium-rod-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">ROLE</p>
+                                        <p class="text-extra-small text-primary"><strong>SUPPORT</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e947d88e0612f52af4be_icons8-no-connection-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DIFFICULTY</p>
+                                        <p class="text-extra-small text-primary"><strong>LOW</strong></p>
+                                    </div>
+                                    <div class="overview-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6033e75d418aae39803b2801_icons8-thor-hammer-100.png" loading="lazy" width="40" alt="" class="mb-10" />
+                                        <p class="text-extra-small mb-0">DAMAGE</p>
+                                        <p class="text-extra-small text-primary"><strong>HOLY</strong></p>
+                                    </div>
+                                </div>
+                                <h5>ABILITIES</h5><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" width="140" alt="" class="mb-20" />
+                                <div data-duration-in="300" data-duration-out="100"
+                                    class="abilities w-tabs">
+                                    <div class="mb-10 w-tab-menu">
+                                        <a data-w-tab="Tab 1" class="ability-item-tab w-inline-block w-tab-link w--current">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f20e715c97eea43661_skill_icon_01_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 2" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f285364a0ad9b2215b_skill_icon_04_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                        <a data-w-tab="Tab 3" class="ability-item-tab w-inline-block w-tab-link">
+                                            <div class="ability-item"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/602ab8f2b671a1ee9783d997_skill_icon_02_nobg%201.png" loading="lazy" width="64" alt="" />
+                                                <div class="corner-light small right-top"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ability-description w-tab-content">
+                                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+                                            <div>
+                                                <div><strong>Critical strike</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">PASSIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 2" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Death mark</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                        <div data-w-tab="Tab 3" class="w-tab-pane">
+                                            <div>
+                                                <div><strong>Holy shield</strong></div>
+                                                <div class="text-extra-small text-primary mb-10">ACTIVE</div>
+                                                <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="section white wf-section">
+        <div class="center-block moba-game-modes-title">
+            <div class="text-highlight primary mb-10">Game modes</div>
+            <h2><em>MULTIPLE WAYS TO PLAY</em></h2>
+        </div>
+        <div class="container">
+            <div data-duration-in="300" data-duration-out="100" class="moba-game-modes w-tabs">
+                <div class="w-tab-content">
+                    <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, 96vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg 1920w"
+                            alt="" class="moba-game-modes-image" />
+                        <div class="moba-game-modes-text">
+                            <h4>ARENA</h4>
+                            <div class="mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</div>
+                            <div class="text-highlight primary mb-10 small">PLAYERS PER TEAM: 5</div>
+                        </div>
+                        <div class="moba-game-mode-bg"></div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, 96vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg 1920w"
+                            alt="" class="moba-game-modes-image" />
+                        <div class="moba-game-modes-text">
+                            <h4>CONQUEST</h4>
+                            <div class="mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</div>
+                            <div class="text-highlight primary mb-10 small">PLAYERS PER TEAM: 10</div>
+                        </div>
+                        <div class="moba-game-mode-bg"></div>
+                    </div>
+                    <div data-w-tab="Tab 3" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, 96vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg 1920w"
+                            alt="" class="moba-game-modes-image" />
+                        <div class="moba-game-modes-text">
+                            <h4>CLASH</h4>
+                            <div class="mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</div>
+                            <div class="text-highlight primary mb-10 small">PLAYERS PER TEAM: 2</div>
+                        </div>
+                        <div class="moba-game-mode-bg"></div>
+                    </div>
+                </div>
+                <div class="moba-game-modes-menu w-tab-menu">
+                    <a data-w-tab="Tab 1" class="moba-game-modes-menu-item w-inline-block w-tab-link w--current">
+                        <div class="moba-game-modes-menu-item-title">Arena</div><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg" loading="lazy" sizes="(max-width: 767px) 28vw, (max-width: 991px) 25vw, 246px" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg 1920w"
+                            alt="" /></a>
+                    <a data-w-tab="Tab 2" class="moba-game-modes-menu-item w-inline-block w-tab-link">
+                        <div class="moba-game-modes-menu-item-title">Conquest</div><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg" loading="lazy" sizes="(max-width: 767px) 28vw, (max-width: 991px) 25vw, 246px" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg 1920w"
+                            alt="" /></a>
+                    <a data-w-tab="Tab 3" class="moba-game-modes-menu-item w-inline-block w-tab-link">
+                        <div class="moba-game-modes-menu-item-title">Clash</div><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg" loading="lazy" sizes="(max-width: 767px) 28vw, (max-width: 991px) 25vw, 246px" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg 1920w"
+                            alt="" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section light wf-section">
+        <div class="center-block moba-game-modes-title">
+            <div class="text-highlight primary mb-10">how to play</div>
+            <h2><strong><em>LEARN THE BASICS</em></strong></h2>
+            <div class="mb-40 text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</div>
+        </div>
+        <div class="container">
+            <div class="section-inner primary-bordered">
+                <div class="corner-light bordered-primary top-left large"></div>
+                <div data-duration-in="300" data-duration-out="100" class="moba-learn-tabs w-tabs">
+                    <div class="moba-learn-tabs-menu w-tab-menu">
+                        <a data-w-tab="Tab 1" class="moba-learn-tabs-menu-item w-inline-block w-tab-link w--current">
+                            <div class="text-small mb-10"><strong>KILL ENEMY UNITS</strong></div>
+                            <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</div>
+                        </a>
+                        <a data-w-tab="Tab 2" class="moba-learn-tabs-menu-item w-inline-block w-tab-link">
+                            <div class="text-small mb-10"><strong>FIGHT WITH PLAYERS</strong></div>
+                            <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</div>
+                        </a>
+                        <a data-w-tab="Tab 3" class="moba-learn-tabs-menu-item w-inline-block w-tab-link">
+                            <div class="text-small mb-10"><strong>SHOP ITEMS</strong></div>
+                            <div class="text-extra-small text-black-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</div>
+                        </a>
+                    </div>
+                    <div class="moba-learn-tabs-content w-tab-content">
+                        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, 40vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3e84fd3d5051ef1597c_mmo-gamemode-2.jpg 1920w"
+                                alt="" /></div>
+                        <div data-w-tab="Tab 2" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, 40vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036a3fceff6dd52ca91cec4_mmo-gamemode-3.jpg 1920w"
+                                alt="" /></div>
+                        <div data-w-tab="Tab 3" class="w-tab-pane"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg" loading="lazy" sizes="(max-width: 479px) 83vw, (max-width: 767px) 90vw, 40vw" srcset="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6036aafd9d5b7f30afe7d383_mmo-gamemode-1.jpg 1920w"
+                                alt="" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section light pt-0 wf-section">
+        <div class="container">
+            <div class="w-dyn-list">
+                <div role="list" class="short-news-row w-dyn-items w-row">
+                    <div role="listitem" class="short-news-item w-dyn-item w-col w-col-4">
+                        <a href="/news/nextgen-patch-1-1" class="short-news-item-link w-inline-block">
+                            <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f4233ab79710a22c47dc3b8/5fac0a99cafaca5e2973fe40_cyborg-4732969_1920.jpg&quot;)" class="short-news-item-image"></div>
+                            <div>
+                                <div class="text-highlight small primary mb-10">11/11/2020</div>
+                                <div class="news-item-title mb-0">
+                                    <p class="text-small">Nextgen Patch 1.1 Is Live - Here&#x27;s What&#x27;s New</p>
+                                </div>
+                            </div>
+                            <div class="corner-light right-top"></div>
+                        </a>
+                    </div>
+                    <div role="listitem" class="short-news-item w-dyn-item w-col w-col-4">
+                        <a href="/news/nextgen-upgrades-runs-faster-than-ever" class="short-news-item-link w-inline-block">
+                            <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f4233ab79710a22c47dc3b8/5fac0aa9dabe271c43df5023_fantasy-5521222_1920.jpg&quot;)" class="short-news-item-image"></div>
+                            <div>
+                                <div class="text-highlight small primary mb-10">11/11/2020</div>
+                                <div class="news-item-title mb-0">
+                                    <p class="text-small">Nextgen Upgrades - Runs Faster Than Ever</p>
+                                </div>
+                            </div>
+                            <div class="corner-light right-top"></div>
+                        </a>
+                    </div>
+                    <div role="listitem" class="short-news-item w-dyn-item w-col w-col-4">
+                        <a href="/news/nextgen-fps-store-page" class="short-news-item-link w-inline-block">
+                            <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/5f4233ab79710a22c47dc3b8/5fac0bea035e22b21f3031ea_scifi-3617337_1920.jpg&quot;)" class="short-news-item-image"></div>
+                            <div>
+                                <div class="text-highlight small primary mb-10">11/11/2020</div>
+                                <div class="news-item-title mb-0">
+                                    <p class="text-small">Nextgen FPS - Store Page Was Missing Standard Edition</p>
+                                </div>
+                            </div>
+                            <div class="corner-light right-top"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section primary overflow-hidden wf-section">
+        <div class="container">
+            <div class="flex-columns row w-row">
+                <div class="w-col w-col-6">
+                    <div class="text-highlight black mb-10">play NOW</div>
+                    <h3 class="text-white mb-20">START YOUR HISTORY AND EARN REWARDS</h3>
+                    <p class="text-white-opacity mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
+                    <a href="/account" class="custom-button white-secondary large mb-20 w-inline-block">
+                        <div class="custom-button-hover black"></div>
+                        <div class="corner-primary top-left small"></div>
+                        <div class="corner-primary bottom-right small"></div>
+                        <div class="custom-button-text">Play for free</div>
+                    </a>
+                    <div class="hero-platforms">
+                        <div class="hero-platform"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa19a81538a556f78baf748_playstation.svg" loading="lazy" height="20" alt="" /></div>
+                        <div class="hero-platform"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa19a9c5573bb85f7b1f330_xbox.svg" loading="lazy" height="20" alt="" /></div>
+                        <div class="hero-platform"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa19aa9fc1a045efff04026_windows.svg" loading="lazy" height="20" alt="" /></div>
+                    </div>
+                </div>
+                <div class="w-col w-col-6"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6088155a7eae5f6dc49bc663_6033f5371878363f0374f918_moba-champ-5%20(1).png" loading="lazy" alt="" class="moba-start-image" /></div>
+            </div>
+        </div>
+    </div>
+    <div class="section white wf-section">
+        <div class="container">
+            <div class="row w-row">
+                <div class="w-col w-col-6">
+                    <h3>COMMUNITY</h3><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5fa58a341465890b77ce63ba_divider.svg" loading="lazy" alt="" class="mb-20" />
+                    <p class="mb-20">Want all the latest news on Nextgen?<br/>Then join our Discord for:<br/>- News<br/>- Patch Notes<br/>- Discussion<br/>- Bug Reports<br/>- and much much more!</p>
+                    <div class="subscribe-socials community"><a href="https://www.youtube.com/" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf4e5fef4c8250dfad0a_icons8-play-button-100.png" loading="lazy" width="30" alt=""/></a>
+                        <a
+                            href="https://www.twitch.tv/" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf611d7ddd17ede45970_icons8-twitch-100.png" loading="lazy" width="30" alt="" /></a><a href="https://www.facebook.com/" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf6c68320d38540f2da7_icons8-facebook-100.png" loading="lazy" width="30" alt=""/></a>
+                            <a
+                                href="https://twitter.com/" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf75efcb605c0a486228_icons8-twitter-100.png" loading="lazy" width="30" alt="" /></a><a href="http://instagram.com" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf87b9d25e13376ed3dc_icons8-instagram-100.png" loading="lazy" width="30" alt=""/></a>
+                                <a
+                                    href="https://discord.com/" class="footer-social community w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5faeaf92393ed812979e445d_icons8-discord-100.png" loading="lazy" width="30" alt="" /></a>
+                    </div>
+                </div>
+                <div class="w-col w-col-6">
+                    <div data-animation="cross" data-duration="500" data-infinite="1" class="feedback-card-slider w-slider">
+                        <div class="feedback-card-slider-mask w-slider-mask">
+                            <div class="w-slide">
+                                <div class="feedback-card">
+                                    <div class="feedback-card-header">
+                                        <div class="feedback-card-score">10</div>
+                                        <div>
+                                            <div class="text-large"><strong>Game Insider</strong></div>
+                                            <div class="text-extra-small text-black-opacity">Mar 31, 2021</div>
+                                        </div>
+                                    </div>
+                                    <p class="text-small mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
+                                        faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                                    <div class="feedback-card-footer">
+                                        <div class="text-extra-small text-black-opacity"><strong>Full review:</strong></div><a href="/" class="feedback-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6074717a07fbbb426e350766_gameinsider.svg" loading="lazy" height="30" alt=""/></a></div>
+                                    <div
+                                        class="corner-white bottom-left"></div>
+                                <div class="corner-white right-top"></div>
+                            </div>
+                        </div>
+                        <div class="w-slide">
+                            <div class="feedback-card">
+                                <div class="feedback-card-header">
+                                    <div class="feedback-card-score">9</div>
+                                    <div>
+                                        <div class="text-large"><strong>PixelMeta</strong></div>
+                                        <div class="text-extra-small text-black-opacity">Mar 12, 2021</div>
+                                    </div>
+                                </div>
+                                <p class="text-small mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+                                    nibh et justo cursus id rutrum lorem imperdiet.</p>
+                                <div class="feedback-card-footer">
+                                    <div class="text-extra-small text-black-opacity"><strong>Full review:</strong></div><a href="/" class="feedback-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6074720e4f4e2b367269ae75_pixelmeta.svg" loading="lazy" height="30" alt=""/></a></div>
+                                <div
+                                    class="corner-white bottom-left"></div>
+                            <div class="corner-white right-top"></div>
+                        </div>
+                    </div>
+                    <div class="w-slide">
+                        <div class="feedback-card">
+                            <div class="feedback-card-header">
+                                <div class="feedback-card-score">8</div>
+                                <div>
+                                    <div class="text-large"><strong>GDN</strong></div>
+                                    <div class="text-extra-small text-black-opacity">Mar 25, 2021</div>
+                                </div>
+                            </div>
+                            <p class="text-small mb-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+                            <div class="feedback-card-footer">
+                                <div class="text-extra-small text-black-opacity"><strong>Full review:</strong></div><a href="/" class="feedback-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/6074726041a8c066c7b0ef1b_gdn.svg" loading="lazy" height="30" alt=""/></a></div>
+                            <div
+                                class="corner-white bottom-left"></div>
+                        <div class="corner-white right-top"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden w-slider-arrow-left">
+                <div class="w-icon-slider-left"></div>
+            </div>
+            <div class="hidden w-slider-arrow-right">
+                <div class="w-icon-slider-right"></div>
+            </div>
+            <div class="feedback-card-nav w-slider-nav w-slider-nav-invert"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="section footer wf-section">
+        <div class="container">
+            <div class="text-center"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60ce076f36f3d28370d04f56_footer-logos.svg" loading="lazy" width="800" alt="" class="mb-60" /></div>
+            <div class="row mb-40 w-row">
+                <div class="w-col w-col-3"><a href="https://www.esrb.org/" class="w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60ce098852531477a036bb70_esrb-rp-fob.svg" loading="lazy" width="200" alt="" class="mb-10"/></a></div>
+                <div class="w-col w-col-9">
+                    <p class="text-extra-small align-left text-white-opacity mb-10">Nextgen, NXGN Studios, Inc. All Rights Reserved. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo
+                        diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                </div>
+            </div>
+            <div class="divider mb-40"></div>
+            <div class="footer-links">
+                <div class="footer-lonks-left"><a href="/" class="footer-logo w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/5f9ae92236f0d952faf1cf43_nextgen-simple.svg" loading="lazy" width="40" alt=""/></a><a href="https://craftengine.co/contact"
+                        class="footer-link">Support</a><a href="https://craftengine.co/" class="footer-link">About us</a><a href="/image-licensing" class="footer-link">licensing<br/></a><a href="https://webflow.com/" class="footer-link">Powered by webflow</a></div>
+                <div
+                    class="subscribe-socials community align-right"><a href="https://www.youtube.com/" class="footer-social footer-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d09c43ea304032245df757_icons8-youtube-play-button-100.png" loading="lazy" width="25" alt=""/></a>
+                    <a
+                        href="https://www.twitch.tv/" class="footer-social footer-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d09c5404fb834cc977640e_icons8-twitch-100.png" loading="lazy" width="25" alt="" /></a><a href="https://www.facebook.com/" class="footer-social footer-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d09c64a652432bdcc3866f_icons8-facebook-100.png" loading="lazy" width="25" alt=""/></a>
+                        <a
+                            href="https://twitter.com/" class="footer-social footer-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/60d09c70b10647f095430039_icons8-twitter-100.png" loading="lazy" width="25" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f34eb6e935a5c1fa933ebe2" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://uploads-ssl.webflow.com/5f34eb6e935a5c1fa933ebe2/js/webflow.29ef2df5c.js" type="text/javascript"></script>
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+
+</html>
